@@ -1,0 +1,60 @@
+
+//nesting
+
+ @import "componentes/variables";
+  /* Estilos del header*/ 
+  
+  
+  .nav-fondo {
+            background-color: $color-pricipal;
+        }
+
+/* Estilos del main*/
+
+.stalyMainOne {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 0.25fr;
+}
+
+// trate de usar el alto al 50% y la propiedad objet-fit pero no se si los aplique bien con el atributo cover//
+    .imagen{ 
+        width: 100%;
+        height: 50%; 
+        object-fit: cover;
+
+    }
+    .titulo{
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    h2 {
+        font-style: italic;
+    text-align: center;
+    }
+        span {
+        display: block;
+    font-style: italic;
+    text-align: center;
+    }
+
+    /* Estilos del footer*/
+footer {
+    background-color: $color-principal;
+ 
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h3 {  
+        text-align: center;
+        font-size: 20 px;
+
+    }
+
+    //el footer no me aparecio en el archivo main.css como el header y el main//
